@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D960BF0B1529C9B300F635ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D960BF0A1529C9B300F635ED /* UIKit.framework */; };
+		D960BF0D1529C9B300F635ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D960BF0C1529C9B300F635ED /* Foundation.framework */; };
+		D960BF0F1529C9B300F635ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D960BF0E1529C9B300F635ED /* CoreGraphics.framework */; };
+		D960BF151529C9B300F635ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D960BF131529C9B300F635ED /* InfoPlist.strings */; };
+		D960BF171529C9B300F635ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D960BF161529C9B300F635ED /* main.m */; };
+		D960BF1B1529C9B300F635ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D960BF1A1529C9B300F635ED /* AppDelegate.m */; };
+		D960BF1E1529C9B300F635ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D960BF1D1529C9B300F635ED /* ViewController.m */; };
+		D960BF211529C9B300F635ED /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D960BF1F1529C9B300F635ED /* ViewController.xib */; };
+		D960BF281529C9CE00F635ED /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D960BF271529C9CE00F635ED /* OpenGLES.framework */; };
+		D960BF2A1529C9D300F635ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D960BF291529C9D300F635ED /* QuartzCore.framework */; };
+		D960BF2F1529CAA300F635ED /* PaintingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D960BF2C1529CA0F00F635ED /* PaintingView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D960BF301529CB2400F635ED /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = D960BF2E1529CA0F00F635ED /* Particle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D960BF061529C9B300F635ED /* GLPaint Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLPaint Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D960BF0A1529C9B300F635ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D960BF0C1529C9B300F635ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D960BF0E1529C9B300F635ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D960BF121529C9B300F635ED /* GLPaint Plus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLPaint Plus-Info.plist"; sourceTree = "<group>"; };
+		D960BF141529C9B300F635ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D960BF161529C9B300F635ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D960BF181529C9B300F635ED /* GLPaint Plus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLPaint Plus-Prefix.pch"; sourceTree = "<group>"; };
+		D960BF191529C9B300F635ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D960BF1A1529C9B300F635ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D960BF1C1529C9B300F635ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D960BF1D1529C9B300F635ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D960BF201529C9B300F635ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D960BF271529C9CE00F635ED /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D960BF291529C9D300F635ED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D960BF2C1529CA0F00F635ED /* PaintingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintingView.m; sourceTree = "<group>"; };
+		D960BF2D1529CA0F00F635ED /* PaintingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaintingView.h; sourceTree = "<group>"; };
+		D960BF2E1529CA0F00F635ED /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D960BF031529C9B300F635ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D960BF2A1529C9D300F635ED /* QuartzCore.framework in Frameworks */,
+				D960BF281529C9CE00F635ED /* OpenGLES.framework in Frameworks */,
+				D960BF0B1529C9B300F635ED /* UIKit.framework in Frameworks */,
+				D960BF0D1529C9B300F635ED /* Foundation.framework in Frameworks */,
+				D960BF0F1529C9B300F635ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D960BEFB1529C9B300F635ED = {
+			isa = PBXGroup;
+			children = (
+				D960BF2B1529C9E700F635ED /* Painting View */,
+				D960BF101529C9B300F635ED /* GLPaint Plus */,
+				D960BF091529C9B300F635ED /* Frameworks */,
+				D960BF071529C9B300F635ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D960BF071529C9B300F635ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D960BF061529C9B300F635ED /* GLPaint Plus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D960BF091529C9B300F635ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D960BF291529C9D300F635ED /* QuartzCore.framework */,
+				D960BF271529C9CE00F635ED /* OpenGLES.framework */,
+				D960BF0A1529C9B300F635ED /* UIKit.framework */,
+				D960BF0C1529C9B300F635ED /* Foundation.framework */,
+				D960BF0E1529C9B300F635ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D960BF101529C9B300F635ED /* GLPaint Plus */ = {
+			isa = PBXGroup;
+			children = (
+				D960BF191529C9B300F635ED /* AppDelegate.h */,
+				D960BF1A1529C9B300F635ED /* AppDelegate.m */,
+				D960BF1C1529C9B300F635ED /* ViewController.h */,
+				D960BF1D1529C9B300F635ED /* ViewController.m */,
+				D960BF1F1529C9B300F635ED /* ViewController.xib */,
+				D960BF111529C9B300F635ED /* Supporting Files */,
+			);
+			path = "GLPaint Plus";
+			sourceTree = "<group>";
+		};
+		D960BF111529C9B300F635ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D960BF121529C9B300F635ED /* GLPaint Plus-Info.plist */,
+				D960BF131529C9B300F635ED /* InfoPlist.strings */,
+				D960BF161529C9B300F635ED /* main.m */,
+				D960BF181529C9B300F635ED /* GLPaint Plus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D960BF2B1529C9E700F635ED /* Painting View */ = {
+			isa = PBXGroup;
+			children = (
+				D960BF2D1529CA0F00F635ED /* PaintingView.h */,
+				D960BF2C1529CA0F00F635ED /* PaintingView.m */,
+				D960BF2E1529CA0F00F635ED /* Particle.png */,
+			);
+			name = "Painting View";
+			path = "Paintint View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D960BF051529C9B300F635ED /* GLPaint Plus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D960BF241529C9B300F635ED /* Build configuration list for PBXNativeTarget "GLPaint Plus" */;
+			buildPhases = (
+				D960BF021529C9B300F635ED /* Sources */,
+				D960BF031529C9B300F635ED /* Frameworks */,
+				D960BF041529C9B300F635ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLPaint Plus";
+			productName = "GLPaint Plus";
+			productReference = D960BF061529C9B300F635ED /* GLPaint Plus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D960BEFD1529C9B300F635ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D960BF001529C9B300F635ED /* Build configuration list for PBXProject "GLPaint Plus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D960BEFB1529C9B300F635ED;
+			productRefGroup = D960BF071529C9B300F635ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D960BF051529C9B300F635ED /* GLPaint Plus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D960BF041529C9B300F635ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D960BF151529C9B300F635ED /* InfoPlist.strings in Resources */,
+				D960BF211529C9B300F635ED /* ViewController.xib in Resources */,
+				D960BF301529CB2400F635ED /* Particle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D960BF021529C9B300F635ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D960BF171529C9B300F635ED /* main.m in Sources */,
+				D960BF1B1529C9B300F635ED /* AppDelegate.m in Sources */,
+				D960BF1E1529C9B300F635ED /* ViewController.m in Sources */,
+				D960BF2F1529CAA300F635ED /* PaintingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D960BF131529C9B300F635ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D960BF141529C9B300F635ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D960BF1F1529C9B300F635ED /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D960BF201529C9B300F635ED /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D960BF221529C9B300F635ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D960BF231529C9B300F635ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D960BF251529C9B300F635ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLPaint Plus/GLPaint Plus-Prefix.pch";
+				INFOPLIST_FILE = "GLPaint Plus/GLPaint Plus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D960BF261529C9B300F635ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLPaint Plus/GLPaint Plus-Prefix.pch";
+				INFOPLIST_FILE = "GLPaint Plus/GLPaint Plus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D960BF001529C9B300F635ED /* Build configuration list for PBXProject "GLPaint Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D960BF221529C9B300F635ED /* Debug */,
+				D960BF231529C9B300F635ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D960BF241529C9B300F635ED /* Build configuration list for PBXNativeTarget "GLPaint Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D960BF251529C9B300F635ED /* Debug */,
+				D960BF261529C9B300F635ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D960BEFD1529C9B300F635ED /* Project object */;
+}
