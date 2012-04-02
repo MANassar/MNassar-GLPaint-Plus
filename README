@@ -1,0 +1,8 @@
+Mods include: 
+ * Settings background color to white
+ * Allowing setting of brush color and width
+ * Allowing changing brush width
+ * Allowing erasing
+ * Providing a method to capture the OpenGL view into a UIImage 
+
+Usage: Just add the “Painting View” folder to your project. Add the PaintingView as a subview, and you’re all set!
